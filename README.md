@@ -21,4 +21,26 @@ Depois de construído o algoritmo, é necessário ainda hospedá-lo em algum ser
 Por uma questão de padronização, o DASI hospeda todos os seus bots do Telegram pelo Google Cloud ou pelo Heroku. Você pode ver mais sobre isso
 e saber como configurar e dar os primeiros passos nessas plataformas [aqui](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Where-to-host-Telegram-Bots).
 
-Por fim, depois de contruído e hospedado, só resta testá-lo no telegram e ver se está tudo funcionando conforme o esperado.
+*Passo a passo (GCloud):
+1 - Acesse [esse](https://console.cloud.google.com/home/) link;
+
+2 - Na barra superior, do lado esquerdo da barra de busca selecione o projeto que você irá usar como "link" do seu código com
+o bot criado no telegram (Se ele ainda não existe, crie-o);
+
+3 - Depois de aberto, procure na barra esquerda as "Cloud functions";
+
+4 - Crie uma se não houver nenhuma;
+
+5 - Adicione um anexo.zip ou cole o código do seu arquivo *main.py* e *requeriments.txt*;
+
+    5.1 - Vale lembrar que para o bot desse repositório, foi necessária a inclusão apenas da dependência "python-telegram-bot";
+
+6 - Defina a função "webhook" para ser executada na caixa de texto abaixo do editor inline;
+
+7 - Defina as variáveis do ambiente no final da página (as variáveis que possuem conteúdo sensível, como o token do seu bot);
+
+8 - Dê um nome para a sua função no início da página;
+
+9 - Implante a função;
+
+10 - Inicie o seu bot no telegram pesquisando pelo @ dele, clicando na conversa e clicando em "start bot" e teste os comandos implementados pelo seu código;
