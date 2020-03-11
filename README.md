@@ -9,7 +9,7 @@ https://github.com/Kerooker/PlayCSTelegramBot
 Link útil para quem optar por hospedar o bot no GCloud: https://medium.com/@xabaras/setting-your-telegram-bot-webhook-the-easy-way-c7577b2d6f72
 
 Basicamente, o arquivo *main.py* presente nesse repositório é onde está localizada a função principal do bot e o arquivo *requeriments.txt* é onde estão
-listadas todas as dependências que precisam ser instaladas localmente na sua máquina para que o bot funcione (o primeiro link também ensina como gerar ele)https://medium.com/@xabaras/setting-your-telegram-bot-webhook-the-easy-way-c7577b2d6f72.
+listadas todas as dependências que precisam ser instaladas localmente na sua máquina para que o bot funcione (o primeiro link também ensina como gerar ele).
 Vale lembrar que as variáveis que possuem um conteúdo sensível, como a 'USERS_TO_PING', que contém todos os users dos bixos e 
 bixetes e a 'TELEGRAM_TOKEN', que contém o token do bot, *nunca* devem ser colocadas diretamente no código, pois qualquer pessoa
 poderá ver e potencialmente fazer mal uso das mesmas. Elas devem ser postas em um arquivo fora do repositório ou, no caso da hospedagem
