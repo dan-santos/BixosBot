@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2824addc-974f-4232-92fa-1480d1b0ef09" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +99,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="779" y="190" width="482" height="386" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.768@0.0.1366.768" timestamp="1583559110823" />
+    <state x="460" y="128" width="424" height="509" key="FileChooserDialogImpl" timestamp="1583879514785">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="460" y="128" width="424" height="509" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1583879514785" />
     <state width="1345" height="186" key="GridCell.Tab.0.bottom" timestamp="1583802803510">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -125,10 +127,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="833" y="121" width="374" height="524" key="VcsDiffUtil.ChangesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583685550842" />
-    <state x="366" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1583812072006">
+    <state x="366" y="211" key="com.intellij.ide.util.TipDialog" timestamp="1583879495262">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="366" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583812072006" />
+    <state x="366" y="211" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583879495262" />
     <state x="735" y="178" width="569" height="409" key="git4idea.merge.GitPullDialog" timestamp="1583685576875">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

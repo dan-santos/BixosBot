@@ -9,7 +9,7 @@ def all_callback(bot, update: Update, **optional_args):
     update.message.reply_text(os.environ['USERS_TO_PING'], quote=False)
 
 
-def webHook(request):
+def webhook(request):
     bot = Bot(token=os.environ['TELEGRAM_TOKEN'])
     dispatcher = Dispatcher(bot, None, 0)
     dispatcher.add_handler(CommandHandler('all', all_callback))
