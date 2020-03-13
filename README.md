@@ -20,21 +20,21 @@ O `main` utiliza variáveis que possuem conteúdo sensível, como a `USERS_TO_PI
 
 Os bots no Telegram precisam ser criados numa conversa com o bot `@BotFather` no próprio aplicativo. O tutorial de desenvolvimento explica bem a fundo como isso é feito.
 
-Depois de construído o algoritmo, é necessário ainda hospedá-lo em algum serviço na nuvem para que ele esteja sempre funcionando. Nós optamos pela Google Cloud, mas a biblioteca [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot), que utilizamos neste bot explica [Onde hospedar Bots do Telegram](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Where-to-host-Telegram-Bots).
+Depois de construído o algoritmo, é necessário ainda hospedá-lo em algum serviço na nuvem para que ele esteja sempre funcionando. Nós optamos pela Google Cloud, mais a biblioteca [`python-telegram-bot`](https://github.com/python-telegram-bot/python-telegram-bot), que utilizamos neste bot explica [Onde hospedar Bots do Telegram](https://github.com/python-telegram-bot/python-telegram-bot/wiki/Where-to-host-Telegram-Bots).
 
 
 ### Passo-a-passo para a Google Cloud
 
 1- Acesse [o console da google cloud](https://console.cloud.google.com/home/)
 
-2 - Na barra superior, do lado esquerdo da barra de busca selecione o projeto que você irá usar como "link" do seu código com
+2 - Na barra superior, do lado esquerdo da barra de busca, selecione o projeto que você irá usar como "link" do seu código com
 o bot criado no telegram (Se ele ainda não existe, crie-o)
 
 3 - Depois de aberto, procure na barra esquerda as `Cloud functions` (Ou [acesse-as diretamente](https://console.cloud.google.com/functions/list))
 
-4 - Crie uma se não houver nenhuma
+4 - Crie uma funçaõ se ainda não houver
 
-5 - Adicione um anexo.zip ou cole o código do seu arquivo `main.py` e `requeriments.txt`
+5 - Adicione um anexo .zip ou cole o código do seu arquivo `main.py` e `requeriments.txt`
 
    5.1 - Vale lembrar que para o bot desse repositório, foi necessária a inclusão apenas da dependência `python-telegram-bot`
 
@@ -46,4 +46,4 @@ o bot criado no telegram (Se ele ainda não existe, crie-o)
 
 9 - Crie a função
 
-10 - Inicie o seu bot no telegram pesquisando pelo @ dele, clicando na conversa e clicando em `start bot` e teste os comandos implementados pelo seu código
+10 - Inicie o seu bot no telegram pesquisando pelo @ dele, indo na conversa e clicando em `start bot` e, por fim, teste os comandos implementados pelo seu código
