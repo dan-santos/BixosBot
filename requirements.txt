@@ -4,7 +4,7 @@ backports-abc==0.5
 certifi==2019.11.28
 cffi==1.14.0
 configobj==5.0.6
-cryptography==2.8
+cryptography==3.2
 decorator==4.4.2
 enum34==1.1.9
 future==0.18.2
